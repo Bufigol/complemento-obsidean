@@ -21,7 +21,6 @@
     "declarationMap": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": "./src",
     "baseUrl": "./src",
     "paths": {
       "@/*": ["*"],
@@ -29,8 +28,7 @@
       "@/services/*": ["services/*"],
       "@/utils/*": ["utils/*"],
       "@/types/*": ["types/*"]
-    },
-    "types": ["node", "jest", "obsidian"]
+    }
   },
   "include": [
     "src/**/*",
