@@ -1,0 +1,84 @@
+{
+  "name": "obsidian-ai-assistant",
+  "version": "1.0.0",
+  "description": "Plugin inteligente que integra IA (Gemini y Claude) con la bóveda de Obsidian para análisis, creación y mejora de notas",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "format": "prettier --write src/**/*.{ts,tsx}",
+    "type-check": "tsc --noEmit",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "ai",
+    "claude",
+    "gemini",
+    "knowledge-management",
+    "note-taking"
+  ],
+  "author": "Paofilia",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.8",
+    "@types/node": "^20.8.10",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "@vitejs/plugin-react": "^4.1.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.12.0",
+    "@google/generative-ai": "^0.2.1",
+    "better-sqlite3": "^9.2.0",
+    "bcrypt": "^5.1.1",
+    "date-fns": "^2.30.0",
+    "dompurify": "^3.0.5",
+    "fs-extra": "^11.2.0",
+    "hnswlib-node": "^1.0.0",
+    "joi": "^17.11.0",
+    "langchain": "^0.1.0",
+    "lodash": "^4.17.21",
+    "lunr": "^2.3.9",
+    "node-cache": "^5.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark": "^15.0.1",
+    "rehype": "^13.0.1",
+    "tiktoken": "^1.0.0",
+    "zod": "^3.22.4"
+  },
+  "peerDependencies": {
+    "obsidian": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paofilia/obsidian-ai-assistant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paofilia/obsidian-ai-assistant/issues"
+  },
+  "homepage": "https://github.com/paofilia/obsidian-ai-assistant#readme"
+}
