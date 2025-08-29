@@ -1,0 +1,21 @@
+# Configuración de Templates de Issues
+# Este archivo controla cómo se muestran los templates en GitHub
+
+# Configuración general
+blank_issues_enabled: false
+contact_links:
+  - name: 🆘 GitHub Discussions
+    url: https://github.com/Bufigol/obsidian-ai-assistant/discussions
+    about: Para preguntas generales, discusiones y ayuda de la comunidad
+  - name: 📚 Documentación del Proyecto
+    url: https://github.com/Bufigol/obsidian-ai-assistant/tree/main/docs
+    about: Accede a la documentación técnica completa del proyecto
+  - name: 🔒 Reporte de Seguridad
+    url: https://github.com/Bufigol/obsidian-ai-assistant/security/advisories
+    about: Para reportar vulnerabilidades de seguridad (privado)
+  - name: 📧 Contacto Directo
+    url: mailto:security@bufigol.dev
+    about: Para asuntos urgentes o reportes de seguridad críticos
+
+# Orden de los templates
+# Los templates se mostrarán en este orden
